@@ -28,9 +28,11 @@ body::before {
 }
 @media (min-width: 1024px) {
   body::before {
+
     background-attachment: fixed;
   }
 }
+
 
 a {
   color: #18d26e;
@@ -306,6 +308,11 @@ section .container {
   padding: 30px;
 }
 @media (max-width: 768px) {
+
+    body::before {
+      background: #040404  ;
+    }
+ 
   section {
     top: 120px;
   }
@@ -1028,3 +1035,4 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
