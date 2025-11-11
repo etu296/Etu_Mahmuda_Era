@@ -805,6 +805,14 @@ section .container {
   bottom: 15px;
   right: 15px;
 }
+.portfolio-img {
+  width: 100%;
+  max-width: 400px;   /* you can adjust */
+  height: 200px;
+  object-fit: cover;  /* maintains aspect ratio and crops if needed */
+  border-radius: 10px;  /* optional */
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
